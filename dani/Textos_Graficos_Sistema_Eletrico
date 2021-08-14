@@ -1,0 +1,14 @@
+0. O sistema de produção e transmissão de energia elétrica do Brasil é considerado um sistema hidro-termo-eólico de grande porte, possuindo interligações entre sistemas. O Sistema Interligado Nacional (SIN) é constituído por quatro subsistemas: Sul, Sudeste/Centro-Oeste, Nordeste e Norte, com exceção de Roraima. Os preços de energia são chamados de Preço de Liquidação das Diferenças (PLD), e são valorados para cada subsistema, correspondendo à diferença entre a energia contratada e a gerada. Nas visualizações, todos os PLDs foram descontados da inflação (IPCA), com base em 2002.
+
+1. O gráfico de Paretto mostra a composição da matriz enérgetica brasileira, que totaliza 172GW (base 2020). Como pode-se notar, é majoritariamente composta por capacidade hidréletrica, que representa 63% do total. A capacidade instalada hidrelétrica, térmica e eólica correspondem a 88% do total.
+
+3. Os gráficos mostram a evolução da capacidade instalada em cada subsistema, de 2002 a 2020. Pode-se notar que em todos subsistemas há um grande crescimento da capacidade (de ~1.5 a 4x), e que a região Nordeste é a que mais cresceu em potencial renovável não-hídrico (eólico e solar). 
+
+4. O box plot mostra a distribuição dos preços (PLDs) descontados da inflação (com base em 2002) no período de 2010 a 2020. Pode-se notar que a região Nordeste é a que possui a mediana mais cara neste período. 
+
+5. O gráfico mostra a variação percentual nos PLDs de cada região com relação a 2017, no período de 2017-2020. Pode-se notar que a região nordeste foi a que teve a maior redução relativa no preço, o que provavelmente tem relação com o aumento na matriz renovável da região, já que o custo marginal eólico e solar é nulo. 
+
+6. O gráfico de radar mostra o PLD médio de cada região no período de 2010 a 2020. Pode-se notar que os preços mais caros ocorrem na primavera, em outubro e novembro.
+
+7. O gráfico de radar mostra a precipitação média de cada região no período de 2010 a 2020. Pode-se notar que na região Norte chove mais qdo que nas demais, na região Sudeste há um período de seca no inverno, e na região Nordeste na primavera.
+

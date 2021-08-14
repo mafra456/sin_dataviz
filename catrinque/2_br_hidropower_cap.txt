@@ -1,0 +1,1 @@
+Visualização do potencial de geração de energia hidrelétrica por unidade federativa, com base na capacidade das usinas situadas em seu território. O mapa de calor evidencia em laranja, os estados com maior capacidade de produção hidrelétrica. Já os círculos em azul, referenciam através de seus raios, a capacidade de produção de energia de cada hidrelétrica.

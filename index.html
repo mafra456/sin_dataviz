@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Apresentacao Trabalho Final Dataviz</title>
+        <meta charset="UTF-8">
+        <style>
+            * {
+            font-size: 100%;
+            font-family: 'IBM Plex Mono',monospace;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Trabalho Final sobre o Sistema Elétrico Brasileiro</h1>
+        André Correia Lacerda Mafra<br>
+        Daniella Castro Araújo<br>
+        Guilherme Henrique Resende de Andrade<br>
+        Lucas Borges Aquino<br>
+        Mateus Rezende de Sá Catrinque<br>
+        <!--Dani -->
+        <h2>Sistema Integrado Nacional</h2>
+        <IMG SRC="dani/sin.png" width="580" height="390" ALIGN="center" alt="Sistema Interligado Nacional"/>
+        <figcaption>O sistema de produção e transmissão de energia elétrica do Brasil é considerado um sistema hidro-termo-eólico de grande porte, possuindo interligações entre sistemas. O Sistema Interligado Nacional (SIN) é constituído por quatro subsistemas: Sul, Sudeste/Centro-Oeste, Nordeste e Norte, com exceção de Roraima. Os preços de energia são chamados de Preço de Liquidação das Diferenças (PLD), e são valorados para cada subsistema, correspondendo à diferença entre a energia contratada e a gerada. Nas visualizações, todos os PLDs foram descontados da inflação (IPCA), com base em 2002.</figcaption>
+        <h2>1 - Capacidade Elétrica Instalada no Brasil (%)</h2>
+        <p>O gráfico de Paretto mostra a composição da matriz enérgetica brasileira, que totaliza 172GW (base 2020). Como pode-se notar, é majoritariamente composta por capacidade hidréletrica, que representa 63% do total. A capacidade instalada hidrelétrica, térmica e eólica correspondem a 88% do total.</p>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="dani/1.html" height="525" width="100%"></iframe>
+        <!--Catrinque -->
+        <h2>2 - Potência de produção de energia hidreletrica</h2>
+        <p>Visualização do potencial de geração de energia hidrelétrica por unidade federativa, com base na capacidade das usinas situadas em seu território. O mapa de calor evidencia em laranja, os estados com maior capacidade de produção hidrelétrica. Já os círculos em azul, referenciam através de seus raios, a capacidade de produção de energia de cada hidrelétrica.</p>
+        <IMG SRC="catrinque/2_br_hidropower_cap.png" width="580" height="390" ALIGN="center"/>
+        <!--Dani -->
+        <h2>3 - Capacidade ao longo do tempo</h2>
+        <p>Os gráficos mostram a evolução da capacidade instalada em cada subsistema, de 2002 a 2020. Pode-se notar que em todos subsistemas há um grande crescimento da capacidade (de ~1.5 a 4x), e que a região Nordeste é a que mais cresceu em potencial renovável não-hídrico (eólico e solar).</p>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="dani/3_1.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="dani/3_2.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="dani/3_3.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="dani/3_4.html" height="525" width="100%"></iframe>
+        <h2>4 - Preços médios</h2>
+        <p>O box plot mostra a distribuição dos preços (PLDs) descontados da inflação (com base em 2002) no período de 2010 a 2020. Pode-se notar que a região Nordeste é a que possui a mediana mais cara neste período.</p>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="dani/4.html" height="525" width="100%"></iframe>
+        <h2>5 - Variação de preço (2017-2020)</h2>
+        <p> O gráfico mostra a variação percentual nos PLDs de cada região com relação a 2017, no período de 2017-2020. Pode-se notar que a região nordeste foi a que teve a maior redução relativa no preço, o que provavelmente tem relação com o aumento na matriz renovável da região, já que o custo marginal eólico e solar é nulo.</p>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="dani/5.html" height="525" width="100%"></iframe>
+        <h2>6 - Sazonalidade do preço</h2>
+        <p>O gráfico de radar mostra o PLD médio de cada região no período de 2010 a 2020. Pode-se notar que os preços mais caros ocorrem na primavera, em outubro e novembro.</p>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="dani/6.html" height="525" width="100%"></iframe>
+        <h2>7 - Sazonalidade da precipitação</h2>
+        <p>O gráfico de radar mostra a precipitação média de cada região no período de 2010 a 2020. Pode-se notar que na região Norte chove mais qdo que nas demais, na região Sudeste há um período de seca no inverno, e na região Nordeste na primavera.</p>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="dani/7.html" height="525" width="100%"></iframe>
+        <!--Catrinque -->
+        <h2>8 - Mapas de precipitação</h2>
+        <p>Análise da concentração média de precipitação anual em território brasileiro, com base nos dados produzidos pelo Serviço Geológico do Brasil (CPRM). A partir do mapa de calor é possível observar as regiões em azul, com intenso volume de chuva, e as áreas em amarelo, onde a chuva é mais escassa.</p>
+        <IMG SRC="catrinque/8_br_annual_rainfall.png" width="580" height="390" ALIGN="center"/>
+        <!--Lucas -->
+        <h2>9 - Precipitação com preço</h2>
+        <p>Essa visualização apresenta uma visão do comportamento entre as curvas de preço e precipitação para cada uma das regiões ao longo dos anos,  
+        podemos observar que apesar de existirem comportamentos correlatos, é difícil extrair informações concretas sobre a influência que a precipitação 
+        exerce sobre o preço da energia elétrica. Para uma melhor compreensão é necessário observar uma janela temporal diferente da sobreposição simples, 
+        tendo em vista que a precipitação pode exercer influência no preço futuro e não no preço presente.</p>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="lucas/North_correlation_1.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="lucas/Northeast_correlation_1.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="lucas/South_correlation_1.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="lucas/Southeast_correlation_1.html" height="525" width="100%"></iframe>
+        <h2>10 - Precipitação com preço - Offset</h2>
+        <p>A visualização a seguir apresenta uma análise da correlação temporal que existe entre precipitação e preço, diferente a sobreposição simples, 
+        esta abordagem calcula a correlação de pearson com diferentes desvios temporais, sendo que, à esquerda do centro o preço oscila e a precipitação oscila em sequência, 
+        e à direita do cetro primeiro temos uma variação na precipitação e em seguida uma variação correlata no preço. Isto apresenta uma visão intuitiva sobre o efeito da chuva 
+        com o preço da energia elétrica, tendo em vista que é necessário longos períodos de chuva para que o preço seja influenciado, de modo que os diversos reservatórios tenham 
+        tempo de encher, existem casos onde o preço oscila antes da precipitação, isto não é uma relação de causa e efeito direta, contudo a previsão temporal e a especulação do 
+        preço podem justificar a alta na correlação.</p>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="lucas/North_correlation_2.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="lucas/Northeast_correlation_2.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="lucas/South_correlation_2.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="lucas/Southeast_correlation_2.html" height="525" width="100%"></iframe>
+    </body>
+</html>

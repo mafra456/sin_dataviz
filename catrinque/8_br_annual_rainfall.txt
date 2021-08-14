@@ -1,0 +1,1 @@
+Análise da concentração média de precipitação anual em território brasileiro, com base nos dados produzidos pelo Serviço Geológico do Brasil (CPRM). A partir do mapa de calor é possível observar as regiões em azul, com intenso volume de chuva, e as áreas em amarelo, onde a chuva é mais escassa.
