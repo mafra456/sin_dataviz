@@ -18,17 +18,20 @@
         Guilherme Henrique Resende de Andrade<br>
         Lucas Borges Aquino<br>
         Mateus Rezende de Sá Catrinque<br>
+        
         <!--Dani -->
         <h2>Sistema Integrado Nacional</h2>
-        <IMG SRC="dani/sin.png" width="580" height="390" ALIGN="center" alt="Sistema Interligado Nacional"/>
+        <p align="center"><IMG SRC="dani/sin.png" width="580" height="390" ALIGN="center" alt="Sistema Interligado Nacional"/></p>
         <figcaption>O sistema de produção e transmissão de energia elétrica do Brasil é considerado um sistema hidro-termo-eólico de grande porte, possuindo interligações entre sistemas. O Sistema Interligado Nacional (SIN) é constituído por quatro subsistemas: Sul, Sudeste/Centro-Oeste, Nordeste e Norte, com exceção de Roraima. Os preços de energia são chamados de Preço de Liquidação das Diferenças (PLD), e são valorados para cada subsistema, correspondendo à diferença entre a energia contratada e a gerada. Nas visualizações, todos os PLDs foram descontados da inflação (IPCA), com base em 2002.</figcaption>
         <h2>1 - Capacidade Elétrica Instalada no Brasil (%)</h2>
         <p>O gráfico de Paretto mostra a composição da matriz enérgetica brasileira, que totaliza 172GW (base 2020). Como pode-se notar, é majoritariamente composta por capacidade hidréletrica, que representa 63% do total. A capacidade instalada hidrelétrica, térmica e eólica correspondem a 88% do total.</p>
         <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="dani/1.html" height="525" width="100%"></iframe>
+        
         <!--Catrinque -->
         <h2>2 - Potência de produção de energia hidreletrica</h2>
         <p>Visualização do potencial de geração de energia hidrelétrica por unidade federativa, com base na capacidade das usinas situadas em seu território. O mapa de calor evidencia em laranja, os estados com maior capacidade de produção hidrelétrica. Já os círculos em azul, referenciam através de seus raios, a capacidade de produção de energia de cada hidrelétrica.</p>
-        <IMG SRC="catrinque/2_br_hidropower_cap.png" width="580" height="390" ALIGN="center"/>
+        <p align="center"><IMG SRC="catrinque/2_br_hidropower_cap.png" width="580" height="390" ALIGN="center"/></p>
+        
         <!--Dani -->
         <h2>3 - Capacidade ao longo do tempo</h2>
         <p>Os gráficos mostram a evolução da capacidade instalada em cada subsistema, de 2002 a 2020. Pode-se notar que em todos subsistemas há um grande crescimento da capacidade (de ~1.5 a 4x), e que a região Nordeste é a que mais cresceu em potencial renovável não-hídrico (eólico e solar).</p>
@@ -48,10 +51,12 @@
         <h2>7 - Sazonalidade da precipitação</h2>
         <p>O gráfico de radar mostra a precipitação média de cada região no período de 2010 a 2020. Pode-se notar que na região Norte chove mais qdo que nas demais, na região Sudeste há um período de seca no inverno, e na região Nordeste na primavera.</p>
         <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="dani/7.html" height="525" width="100%"></iframe>
+        
         <!--Catrinque -->
         <h2>8 - Mapas de precipitação</h2>
         <p>Análise da concentração média de precipitação anual em território brasileiro, com base nos dados produzidos pelo Serviço Geológico do Brasil (CPRM). A partir do mapa de calor é possível observar as regiões em azul, com intenso volume de chuva, e as áreas em amarelo, onde a chuva é mais escassa.</p>
-        <IMG SRC="catrinque/8_br_annual_rainfall.png" width="580" height="390" ALIGN="center"/>
+        <p align="center"><IMG SRC="catrinque/8_br_annual_rainfall.png" width="580" height="390" ALIGN="center"/></p>
+        
         <!--Lucas -->
         <h2>9 - Precipitação com preço</h2>
         <p>Essa visualização apresenta uma visão do comportamento entre as curvas de preço e precipitação para cada uma das regiões ao longo dos anos,  
@@ -73,5 +78,19 @@
         <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="lucas/Northeast_correlation_2.html" height="525" width="100%"></iframe>
         <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="lucas/South_correlation_2.html" height="525" width="100%"></iframe>
         <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="lucas/Southeast_correlation_2.html" height="525" width="100%"></iframe>
+
+        <!--Guilherme -->
+        <h2>11 - Médias Básica e Móvel da Precipitação</h2>
+        <p>A visualização apresenta a soma normalizada das precipitações para cada data presente na base de dados, bem como a média deslizante com tamanho de janela igual a 60 datas. Como podemos verificar, a média deslizante apresenta um padrão de redução nos índices de precipitação com a progressão dos anos.</p>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="guilherme/11.html" height="525" width="100%"></iframe>
+        <h2>12(a) - Visualização das Séries de Temperatura Média e Precipitação</h2>
+        <p>Visualização das séries de dados das features de `temperatura média` deslocada em 6 datas, e precipitação média. A correlação de Pearson entre ambas as séries temporais é de 0.69 (ou seja, correlação positiva considerável).</p>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="guilherme/12a.html" height="525" width="100%"></iframe>
+        <h2>12(b) - Correlação Entre Temperatura Média e Precipitação</h2>
+        <p>Na imagem a seguir, temos a distribuição dos pontos de ambas as séries. Como podemos ver, os pontos aparentam se comportar de forma similar e contida.</p>
+        <!-- <p align="center"><iframe id="igraph" scrolling="no" style=" text-align:center; border:none;" seamless="seamless" src="guilherme/12b.html" height="800" width="100%"></iframe></p> -->
+        <p align="center"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="guilherme/12b.html" height="800" width="40%"></iframe></p>
+
+        <!--André -->
     </body>
 </html>
