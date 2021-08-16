@@ -12,7 +12,7 @@
         </style>
     </head>
     <body>
-        <h1>Trabalho Final sobre o Sistema Elétrico Brasileiro</h1>
+        <h1 style = "font-size: 30px">Trabalho Final sobre o Sistema Elétrico Brasileiro</h1>
         André Correia Lacerda Mafra<br>
         Daniella Castro Araújo<br>
         Guilherme Henrique Resende de Andrade<br>
@@ -23,6 +23,23 @@
         <h2>Sistema Integrado Nacional</h2>
         <p align="center"><IMG SRC="dani/sin.png" width="580" height="390" ALIGN="center" alt="Sistema Interligado Nacional"/></p>
         <figcaption>O sistema de produção e transmissão de energia elétrica do Brasil é considerado um sistema hidro-termo-eólico de grande porte, possuindo interligações entre sistemas. O Sistema Interligado Nacional (SIN) é constituído por quatro subsistemas: Sul, Sudeste/Centro-Oeste, Nordeste e Norte, com exceção de Roraima. Os preços de energia são chamados de Preço de Liquidação das Diferenças (PLD), e são valorados para cada subsistema, correspondendo à diferença entre a energia contratada e a gerada. Nas visualizações, todos os PLDs foram descontados da inflação (IPCA), com base em 2002.</figcaption>
+        <h3>Sumário</h3>
+        1. Capacidade Elétrica Instalada no Brasil (%) <br>
+        2. Potência de produção de energia hidreletrica <br>
+        3. Capacidade ao longo do tempo <br>
+        4. Preços médios <br>
+        5. Variação de preço (2017-2020) <br>
+        6. Sazonalidade do preço<br>
+        7. Sazonalidade da precipitação<br>
+        8. Mapas de precipitação <br>
+        9. Precipitação com preço <br>
+        10. Precipitação com preço - Offset  <br>
+        11. Precipitação média deslizante <br>
+        12. Correlação temperatura média e precipitação <br>
+        13. Blackout pela temperatura  <br>
+        14. Blackout pela precipitação <br>
+        15. Horário de verão por preço e por demanda <br>
+        16. Horário de verão por demanda<br>
         <h2>1 - Capacidade Elétrica Instalada no Brasil (%)</h2>
         <p>O gráfico de Paretto mostra a composição da matriz enérgetica brasileira, que totaliza 172GW (base 2020). Como pode-se notar, é majoritariamente composta por capacidade hidréletrica, que representa 63% do total. A capacidade instalada hidrelétrica, térmica e eólica correspondem a 88% do total.</p>
         <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="dani/1.html" height="525" width="100%"></iframe>
@@ -34,7 +51,7 @@
         
         <!--Dani -->
         <h2>3 - Capacidade ao longo do tempo</h2>
-        <p>Os gráficos mostram a evolução da capacidade instalada em cada subsistema, de 2002 a 2020. Pode-se notar que em todos subsistemas há um grande crescimento da capacidade (de ~1.5 a 4x), e que a região Nordeste é a que mais cresceu em potencial renovável não-hídrico (eólico e solar).</p>
+        <p>Os gráficos mostram a evolução da capacidade instalada em cada subsistema, de 2010 a 2020. Pode-se notar que em todos subsistemas há um grande crescimento da capacidade (de ~1.5 a 4x), e que a região Nordeste é a que mais cresceu em potencial renovável não-hídrico (eólico e solar).</p>
         <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="dani/3_1.html" height="525" width="100%"></iframe>
         <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="dani/3_2.html" height="525" width="100%"></iframe>
         <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="dani/3_3.html" height="525" width="100%"></iframe>
@@ -92,5 +109,31 @@
         <p align="center"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="guilherme/12b.html" height="800" width="40%"></iframe></p>
 
         <!--André -->
+        <h2>13 - Blackout pela temperatura</h2>
+        <p>As visualizações a seguir apresentam a relação de Blackouts por região com a temperatura máxima. É interessante observar como Blackouts sempre foram precedidos de épocas de altas temperaturas.</p>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/blackout_max_temperature_NORDESTE.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/blackout_max_temperature_NORTE.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/blackout_max_temperature_SUL.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/blackout_max_temperature_SUDESTE.html" height="525" width="100%"></iframe>
+        <h2>14 - Blackout pela precipitação</h2>
+        <p>As visualizações a seguir apresentam a relação entre Blackouts e a Precipitação, e mais uma vez períodos de blackout são precedidos por épocas de estiagem.</p>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/blackout_precipitation_NORDESTE.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/blackout_precipitation_NORTE.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/blackout_precipitation_SUL.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/blackout_precipitation_SUDESTE.html" height="525" width="100%"></iframe>
+        <h2>15 - Horário de verão por preço e por demanda</h2>
+        <p>As visualizações a seguir apresentam a relação entre Horário de Verão e Demanda. E como já era de se esperar, nos períodos de horário de verão a demanda é maior, o que nos faz pensar que a demanda seria ainda maior caso não houvesse horário de verão. Por outro lado nos anos 2019 e 2020 o horário de verão foi suspenso e o comportamento da demanda não parece ter mudado.</p>
+        <!-- <p align="center"><iframe id="igraph" scrolling="no" style=" text-align:center; border:none;" seamless="seamless" src="guilherme/12b.html" height="800" width="100%"></iframe></p> -->
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/summer_hour_demand_NORDESTE.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/summer_hour_demand_NORTE.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/summer_hour_demand_SUL.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/summer_hour_demand_SUDESTE.html" height="525" width="100%"></iframe>
+        <h2>16 - Horário de verão por Preço</h2>
+        <p>As visualizações a seguir apresentam a relação entre Horário de Verão e Preço. Até 2015 não parece haver correlação nos dados, porém a partir de 2016, o preço diminui nos períodos de horário de verão.</p>
+        <!-- <p align="center"><iframe id="igraph" scrolling="no" style=" text-align:center; border:none;" seamless="seamless" src="guilherme/12b.html" height="800" width="100%"></iframe></p> -->
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/summer_hour_price_NORDESTE.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/summer_hour_price_NORTE.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/summer_hour_price_SUL.html" height="525" width="100%"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="andre/summer_hour_price_SUDESTE.html" height="525" width="100%"></iframe>
     </body>
 </html>
